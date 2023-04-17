@@ -10,6 +10,7 @@ import motherBabySitter from "../assets/mothter-baby-sitter.jpg";
 import maid from "../assets/maid.jpg";
 import accupressure from "../assets/accupressure.jpg";
 import bodyMassage from "../assets/body-massage.jpeg";
+import patientCare from "../assets/national-cancer-institute-BxXgTQEw1M4-unsplash.jpg";
 
 const Services = () => {
   return (
@@ -17,7 +18,9 @@ const Services = () => {
       id="services"
       className="flex flex-col justify-center items-center space-y-20 p-10 mt-10 max-sm:mt-0 max-sm:p-6"
     >
-      <h2 className="text-4xl font-bold">Services Provided By Us.</h2>
+      <h2 className="text-4xl font-bold">
+        Jeet Nursing Bureau Services - Your Trusted Healthcare Partner
+      </h2>
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img
           src={physio}
@@ -43,7 +46,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -73,7 +76,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -113,7 +116,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -145,7 +148,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -188,7 +191,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -200,7 +203,7 @@ const Services = () => {
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col-reverse space-y-2 max-sm:space-y-reverse max-sm:space-x-0 h-auto shadow-xl">
         <div className="space-y-5 text-end max-sm:text-center">
           <h1 className="text-black text-3xl font-bold max-sm:text-2xl">
-            Mother Baby Sitter Services
+            Mother Baby Care Services
           </h1>
           <div className="p-2 space-y-8 max-sm:pb-5">
             <p className="text-md text-gray-500 font-roboto max-sm:text-sm">
@@ -220,7 +223,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -262,7 +265,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -294,7 +297,7 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
@@ -338,13 +341,53 @@ const Services = () => {
                 spy={true}
                 smooth={true}
                 duration={2500}
-                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-300"
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
               >
                 Book Now
               </Link>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col-reverse space-y-2 max-sm:space-y-reverse max-sm:space-x-0 h-auto shadow-xl">
+        <div className="space-y-5 text-end max-sm:text-center">
+          <h1 className="text-black text-3xl font-bold max-sm:text-2xl">
+            Patient Care
+          </h1>
+          <div className="p-2 space-y-8 max-sm:pb-5">
+            <p className="text-md text-gray-500 font-roboto max-sm:text-sm">
+              Jeet Nursing Bureau offers reliable patient care services in
+              Delhi, Delhi NCR, Gurugram, Haryana, and Faridabad. Their
+              compassionate and experienced caregivers provide personalized care
+              to patients with a range of medical needs, including those with
+              chronic illnesses or disabilities. They offer services such as
+              medication management, wound care, assistance with daily
+              activities, and emotional support to improve the quality of life
+              of their patients. With their commitment to quality care and
+              customer satisfaction, Jeet Nursing Bureau is a trusted choice for
+              those seeking professional and reliable patient care services in
+              the region.
+            </p>
+            <div>
+              <Link
+                to="contactus"
+                spy={true}
+                smooth={true}
+                duration={2500}
+                className="rounded-md py-2 px-8 text-white font-semibold bg-blue-500 hover:bg-blue-300 transition-all duration-300 ease-in-out"
+              >
+                Book Now
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src={patientCare}
+          alt="physcio therapy"
+          className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
+        />
       </div>
     </div>
   );

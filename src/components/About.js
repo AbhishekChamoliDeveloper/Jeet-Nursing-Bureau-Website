@@ -18,21 +18,27 @@ const About = () => {
           Want to know about us ?
         </h2>
         <p className="text-md text-gray-400">
-          Jeet Nursing Bureau is a reliable and efficient organization that
-          provides high-quality nursing and home care services registered by
-          Ministry of Micro, Small and Medium Enterprises ( Udhyam Registration
-          Certificate: UDYAM-DL-06-0058662). Our team of highly skilled and
-          qualified professionals offers a wide range of services, including
-          nursing care, physiotherapy, maid services, and security guards, among
-          others. Our nursing care services provide personalized care to clients
-          of all ages, from infants to the elderly, while our physiotherapy
-          services offer customized treatment plans to help clients recover from
-          injuries, surgeries, and illnesses. We also offer maid services to
-          assist clients with household chores and security guard services to
-          ensure the safety and security of our clients and their property. Our
-          commitment to excellence and exceptional care has earned us a solid
-          reputation as a premier provider of nursing and home care services.
-          Trust us to keep your home and loved ones happy, healthy, and safe.
+          <span class="text-yellow-500 text-xl font-bold">
+            Jeet Nursing Bureau
+          </span>{" "}
+          is a reliable and efficient organization that provides high-quality
+          nursing and home care services registered by{" "}
+          <span className="text-yellow-500 text-xl font-bold mr-1">
+            Ministry of Micro, Small and Medium Enterprises ( Udhyam
+            Registration Certificate: UDYAM-DL-06-0058662)
+          </span>
+          . Our team of highly skilled and qualified professionals offers a wide
+          range of services, including nursing care, physiotherapy, maid
+          services, and security guards, among others. Our nursing care services
+          provide personalized care to clients of all ages, from infants to the
+          elderly, while our physiotherapy services offer customized treatment
+          plans to help clients recover from injuries, surgeries, and illnesses.
+          We also offer maid services to assist clients with household chores
+          and security guard services to ensure the safety and security of our
+          clients and their property. Our commitment to excellence and
+          exceptional care has earned us a solid reputation as a premier
+          provider of nursing and home care services. Trust us to keep your home
+          and loved ones happy, healthy, and safe.
         </p>
       </div>
     </section>

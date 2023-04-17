@@ -91,7 +91,7 @@ const Navbar = () => {
 
       <a
         href="/career"
-        className="rounded-md py-2 px-8 text-white font-semibold bg-yellow-500 max-sm:hidden"
+        className="rounded-md py-2 px-8 text-white font-semibold bg-yellow-500 max-sm:hidden hover:bg-yellow-400 transition-all duration-500 ease-in-out"
       >
         Career
       </a>
