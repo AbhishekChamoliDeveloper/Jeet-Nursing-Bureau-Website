@@ -3,7 +3,10 @@ import nurse from "../assets/Nurse_with_old_man.jpg";
 
 const ContactUs = () => {
   return (
-    <div className="flex flex-col p-10 items-center justify-center space-y-3 mt-8 max-sm:p-4">
+    <div
+      id="contactus"
+      className="flex flex-col p-10 items-center justify-center space-y-3 mt-8 max-sm:p-4"
+    >
       <h1 class="text-black text-4xl font-sans font-bold leading-[4rem]">
         Contact Us
       </h1>

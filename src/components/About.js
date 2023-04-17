@@ -4,7 +4,10 @@ import nurse from "../assets/nurse.jpg";
 
 const About = () => {
   return (
-    <section className="p-10 flex flex-row  justify-center text-center space-x-5 max-sm:flex-col max-sm:space-x-0 max-sm:items-center max-sm:p-6">
+    <section
+      id="about"
+      className="p-10 flex flex-row  justify-center text-center space-x-5 max-sm:flex-col max-sm:space-x-0 max-sm:items-center max-sm:p-6"
+    >
       <img
         src={nurse}
         alt="jeet nurses bureau logo"

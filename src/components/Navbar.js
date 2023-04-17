@@ -1,6 +1,7 @@
 import React from "react";
 import company_logo from "../assets/company_logo.png";
 import MobileMenu from "./MobileMenu";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -16,24 +17,42 @@ const Navbar = () => {
       <MobileMenu />
 
       <div className="flex flex-row items-center justify-center space-x-6 max-sm:hidden">
-        <a
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          duration={1500}
           className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
-          href="/home"
         >
           Home
-        </a>
-        <a
+        </Link>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={1500}
           className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
-          href="/about"
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
+          to="contactus"
+          spy={true}
+          smooth={true}
+          duration={1500}
           className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
-          href="/services"
         >
-          Services
-        </a>
+          Contact Us
+        </Link>
+        <Link
+          to="reviews"
+          spy={true}
+          smooth={true}
+          duration={1500}
+          className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
+        >
+          Reviews
+        </Link>
       </div>
 
       <a
