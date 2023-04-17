@@ -14,7 +14,7 @@ const ContactUs = () => {
           className="rounded-tl-lg rounded-bl-lg h-[28rem] max-sm:hidden"
         />
         <form className="flex flex-col space-y-10 p-2 max-sm:shadow-3xl">
-          <div className="flex flex-row items-center justify-center space-x-8">
+          <div className="flex flex-row items-center justify-center space-x-8 max-sm:flex-col max-sm:space-x-0">
             <input
               type="text"
               placeholder="Your Name"
