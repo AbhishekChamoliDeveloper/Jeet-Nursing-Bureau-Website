@@ -13,18 +13,18 @@ const ContactUs = () => {
           alt="nurse"
           className="rounded-tl-lg rounded-bl-lg h-[28rem] max-sm:hidden"
         />
-        <form className="flex flex-col space-y-10 p-2 max-sm:shadow-3xl">
-          <div className="flex flex-row items-center justify-center space-x-8 max-sm:flex-col max-sm:space-x-0">
+        <form className="flex flex-col space-y-10 p-2 max-sm:shadow-3xl max-sm:w-[20rem]">
+          <div className="flex flex-row items-center justify-center space-x-8 max-sm:flex-col max-sm:space-x-0 max-sm:space-y-10 max-sm:w-full">
             <input
               type="text"
               placeholder="Your Name"
-              className="border border-gray-400 p-2 rounded-lg"
+              className="border border-gray-400 p-2 rounded-lg max-sm:w-full"
             />
 
             <input
               type="email"
               placeholder="Your Email"
-              className="border border-gray-400 p-2 rounded-lg"
+              className="border border-gray-400 p-2 rounded-lg max-sm:w-full"
             />
           </div>
 
