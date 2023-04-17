@@ -10,7 +10,7 @@ const ContactUs = () => {
       <h1 class="text-black text-4xl font-sans font-bold leading-[4rem]">
         Contact Us
       </h1>
-      <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0 w-full max-sm:bg-none max-sm:p-5">
+      <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0 max-sm:w-full max-sm:bg-none max-sm:p-5">
         <img
           src={nurse}
           alt="nurse"
