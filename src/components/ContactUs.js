@@ -3,11 +3,11 @@ import nurse from "../assets/Nurse_with_old_man.jpg";
 
 const ContactUs = () => {
   return (
-    <div className="flex flex-col p-10 items-center justify-center space-y-3 mt-8 max-sm:p-0">
+    <div className="flex flex-col p-10 items-center justify-center space-y-3 mt-8 max-sm:p-4">
       <h1 class="text-black text-4xl font-sans font-bold leading-[4rem]">
         Contact Us
       </h1>
-      <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0 w-full">
+      <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0 w-full max-sm:bg-none max-sm:p-5">
         <img
           src={nurse}
           alt="nurse"
