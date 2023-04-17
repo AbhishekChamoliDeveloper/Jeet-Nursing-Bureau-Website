@@ -35,7 +35,7 @@ const Navbar = () => {
         <img
           src={company_logo}
           alt="jeet nurses bureau logo"
-          className="h-10"
+          className="h-16"
         />
       </a>
 

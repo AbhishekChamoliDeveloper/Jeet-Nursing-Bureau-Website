@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-import customMarkerIcon from "../assets/company_logo.png";
+import customMarkerIcon from "../assets/map-marker-svgrepo-com.svg";
 
 const AddressMap = () => {
   const position = [28.694846, 77.0557653]; // Delhi's latitude and longitude
