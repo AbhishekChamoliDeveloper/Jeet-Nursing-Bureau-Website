@@ -1,11 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import company_logo from "../assets/company_logo.png";
 import MobileMenu from "./MobileMenu";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const navbar = document.querySelector("#navbar");
+    const top = window.pageYOffset;
+
+    if (top > 10) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="flex flex-row items-center justify-around p-3 max-sm:justify-between">
+    <div
+      id="navbar"
+      className={`flex bg-white ${
+        !visible ? "fixed  z-40" : ""
+      } flex-row items-center justify-around p-3 max-sm:justify-between transition-all delay-1000 ease-in-out w-full`}
+    >
       <a href="/">
         <img
           src={company_logo}
@@ -52,6 +77,15 @@ const Navbar = () => {
           className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
         >
           Reviews
+        </Link>
+        <Link
+          to="services"
+          spy={true}
+          smooth={true}
+          duration={2500}
+          className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
+        >
+          Services
         </Link>
       </div>
 

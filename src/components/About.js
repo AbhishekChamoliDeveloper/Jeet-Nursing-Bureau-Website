@@ -21,28 +21,18 @@ const About = () => {
           Jeet Nursing Bureau is a reliable and efficient organization that
           provides high-quality nursing and home care services registered by
           Ministry of Micro, Small and Medium Enterprises ( Udhyam Registration
-          Certificate: UDYAM-DL-06-0058662).
-          <br />
-          <br />
-          Our team of highly skilled and qualified professionals offers a wide
-          range of services, including nursing care, physiotherapy, maid
-          services, and security guards, among others.
-          <br />
-          <br />
-          Our nursing care services provide personalized care to clients of all
-          ages, from infants to the elderly, while our physiotherapy services
-          offer customized treatment plans to help clients recover from
-          injuries, surgeries, and illnesses.
-          <br />
-          <br />
-          We also offer maid services to assist clients with household chores
-          and security guard services to ensure the safety and security of our
-          clients and their property. <br />
-          <br />
-          Our commitment to excellence and exceptional care has earned us a
-          solid reputation as a premier provider of nursing and home care
-          services. Trust us to keep your home and loved ones happy, healthy,
-          and safe.
+          Certificate: UDYAM-DL-06-0058662). Our team of highly skilled and
+          qualified professionals offers a wide range of services, including
+          nursing care, physiotherapy, maid services, and security guards, among
+          others. Our nursing care services provide personalized care to clients
+          of all ages, from infants to the elderly, while our physiotherapy
+          services offer customized treatment plans to help clients recover from
+          injuries, surgeries, and illnesses. We also offer maid services to
+          assist clients with household chores and security guard services to
+          ensure the safety and security of our clients and their property. Our
+          commitment to excellence and exceptional care has earned us a solid
+          reputation as a premier provider of nursing and home care services.
+          Trust us to keep your home and loved ones happy, healthy, and safe.
         </p>
       </div>
     </section>

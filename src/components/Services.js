@@ -12,7 +12,10 @@ import bodyMassage from "../assets/body-massage.jpeg";
 
 const Services = () => {
   return (
-    <div className="flex flex-col justify-center items-center space-y-10 p-10 mt-10 max-sm:mt-0 max-sm:p-6">
+    <div
+      id="services"
+      className="flex flex-col justify-center items-center space-y-20 p-10 mt-10 max-sm:mt-0 max-sm:p-6"
+    >
       <h2 className="text-4xl font-bold">Services Provided By Us.</h2>
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,31 +31,57 @@ function MobileMenu() {
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div className="py-2 px-3 space-y-3">
-            <p
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={2500}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
               Home
-            </p>
+            </Link>
 
-            <p
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={2500}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
               About Us
-            </p>
-            <p
+            </Link>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              duration={2500}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
               Services
-            </p>
-            <p
+            </Link>
+            <Link
+              to="contactus"
+              spy={true}
+              smooth={true}
+              duration={2500}
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
               Contact Us
-            </p>
+            </Link>
+            <Link
+              to="reviews"
+              spy={true}
+              smooth={true}
+              duration={2500}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+              role="menuitem"
+            >
+              reviews
+            </Link>
 
             <div className="w-full">
               <a
