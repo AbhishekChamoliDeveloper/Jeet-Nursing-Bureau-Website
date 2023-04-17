@@ -239,7 +239,7 @@ const Services = () => {
         <img
           src={maid}
           alt="physcio therapy"
-          className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
+          className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-[20rem]"
         />
         <div className="space-y-5 max-sm:text-center">
           <h1 className="text-black text-3xl font-bold max-sm:text-2xl">
@@ -305,7 +305,7 @@ const Services = () => {
         <img
           src={accupressure}
           alt="physcio therapy"
-          className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
+          className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-[20rem]"
         />
       </div>
 
