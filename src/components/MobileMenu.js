@@ -29,26 +29,41 @@ function MobileMenu() {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-          <div className="py-2 px-3">
+          <div className="py-2 px-3 space-y-3">
             <p
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
-              Case studies
+              Home
             </p>
 
             <p
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
-              Use-Cases
+              About Us
             </p>
             <p
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
-              Pricing
+              Services
             </p>
+            <p
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+              role="menuitem"
+            >
+              Contact Us
+            </p>
+
+            <div className="w-full">
+              <a
+                href="/career"
+                className="rounded-sm py-2 px-4 text-white font-semibold bg-yellow-500 w-full block text-center"
+              >
+                Career
+              </a>
+            </div>
           </div>
 
           <button
