@@ -7,13 +7,13 @@ const ContactUs = () => {
       <h1 class="text-black text-4xl font-sans font-bold leading-[4rem]">
         Contact Us
       </h1>
-      <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md">
+      <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0">
         <img
           src={nurse}
           alt="nurse"
-          className="rounded-tl-lg rounded-bl-lg h-[28rem]"
+          className="rounded-tl-lg rounded-bl-lg h-[28rem] max-sm:hidden"
         />
-        <form className="flex flex-col space-y-10 p-3">
+        <form className="flex flex-col space-y-10 p-2 max-sm:shadow-3xl">
           <div className="flex flex-row items-center justify-center space-x-8">
             <input
               type="text"
