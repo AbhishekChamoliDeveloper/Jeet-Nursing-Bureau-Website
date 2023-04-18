@@ -4,7 +4,7 @@ window.env = {
   "C:\\Program Files\\Git\\cmd": "C:\\Program Files\\Git\\cmd",
   "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
   "ChocolateyLastPathUpdate": "132754936998732004",
-  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_12600_YKJHZLAWQSYUFHHW",
+  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_12076_LEOZZURSFSNFPYWO",
   "COLOR": "1",
   "COLORTERM": "truecolor",
   "CommonProgramFiles": "C:\\Program Files\\Common Files",
