@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 import nurse from "../assets/Nurse_with_old_man.jpg";
 
@@ -15,16 +16,26 @@ const Hero = () => {
       max-md:text-center max-md:items-center
       "
       >
-        <h1 class="text-black text-6xl font-sans font-bold leading-[4rem] max-sm:text-3xl max-md:text-4xl">
+        <motion.h1
+          className="text-black text-6xl font-sans font-bold leading-[4rem] max-sm:text-3xl max-md:text-4xl"
+          initial={{ y: -50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 2, ease: "easeOut", delay: 0.2 }}
+        >
           Jeet Nursing Bureau - Exceptional Caregiver Services for Your Loved
           Ones.
-        </h1>
-        <p className="text-xl text-gray-500 font-roboto max-sm:text-lg max-md:text-xl">
+        </motion.h1>
+        <motion.p
+          className="text-xl text-gray-500 font-roboto max-sm:text-lg max-md:text-xl"
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+        >
           Trust Jeet Nursing Bureau as Your One-Stop-Shop for Top-Quality
           Nursing and Home Care Services in Delhi NCR, Gurugram, Haryana, and
           Faridabad. From Maids to Physiotherapists, Our Expert Caregivers Keep
           Your Home and Loved Ones Happy, Healthy, and Safe.
-        </p>
+        </motion.p>
         <div className="flex flex-row items-center justify-center space-x-4 max-sm:flex-col max-sm:space-x-0 max-md:flex-col max-md:space-x-0">
           <Link
             to="contactus"
@@ -43,10 +54,19 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <img
+      {/* <img
         src={nurse}
         alt="old man with patient"
         className="h-[25rem] rounded-xl drop-shadow-3xl max-sm:hidden max-md:hidden"
+      /> */}
+
+      <motion.img
+        src={nurse}
+        alt="old man with patient"
+        className="h-[25rem] rounded-xl drop-shadow-3xl max-sm:hidden max-md:hidden"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 3, ease: "easeOut" }}
       />
     </div>
   );
