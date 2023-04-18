@@ -19,24 +19,6 @@ const PhotoGallery = () => {
             alt="Jeet Nursing Bureau provides expert home healthcare and patient care services in the Delhi-NCR area, including Delhi, Gurugram, and Faridabad."
           />
         </div>
-        <div className="border border-white rounded-lg overflow-hidden shadow-lg">
-          <img
-            src={image2}
-            alt="Jeet Nursing Bureau provides expert home healthcare and patient care services in the Delhi-NCR area, including Delhi, Gurugram, and Faridabad."
-          />
-        </div>
-        <div className="border border-white rounded-lg overflow-hidden shadow-lg">
-          <img
-            src={image3}
-            alt="Jeet Nursing Bureau provides expert home healthcare and patient care services in the Delhi-NCR area, including Delhi, Gurugram, and Faridabad."
-          />
-        </div>
-        <div className="border border-white rounded-lg overflow-hidden shadow-lg">
-          <img
-            src={image4}
-            alt="Jeet Nursing Bureau provides expert home healthcare and patient care services in the Delhi-NCR area, including Delhi, Gurugram, and Faridabad."
-          />
-        </div>
       </div>
     </div>
   );
