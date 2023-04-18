@@ -89,7 +89,7 @@ const Navbar = () => {
       </div>
 
       <a
-        href="/career"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdrB--xq_k92RKdoOZ6FjOLv-9wkb8K5_qqfyAon19uTR9j5w/viewform"
         className="rounded-md py-2 px-8 text-white font-semibold bg-yellow-500 max-sm:hidden hover:bg-yellow-400 transition-all duration-500 ease-in-out"
       >
         Career

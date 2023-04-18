@@ -90,7 +90,7 @@ function MobileMenu() {
 
             <div className="w-full">
               <a
-                href="/career"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdrB--xq_k92RKdoOZ6FjOLv-9wkb8K5_qqfyAon19uTR9j5w/viewform"
                 className="rounded-sm py-2 px-4 text-white font-semibold bg-yellow-500 w-full block text-center"
               >
                 Career
