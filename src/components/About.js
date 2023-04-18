@@ -6,14 +6,17 @@ const About = () => {
   return (
     <section
       id="about"
-      className="p-10 flex flex-row  justify-center text-center space-x-5 max-sm:flex-col max-sm:space-x-0 max-sm:items-center max-sm:p-6"
+      className="p-10 flex flex-row  justify-center text-center space-x-5 max-sm:flex-col max-sm:space-x-0 max-sm:items-center max-sm:p-6
+      
+      max-md:flex-col max-md:space-x-0 max-md:items-center max-md:p-4
+      "
     >
       <img
         src={nurse}
         alt="jeet nurses bureau logo"
-        className="h-[20rem] rounded-md max-sm:h-[15rem]"
+        className="h-[20rem] rounded-md max-sm:h-[15rem] max-md:h-[20rem]"
       />
-      <div className="space-y-5 p-4 text-start max-sm:text-center">
+      <div className="space-y-5 p-4 text-start max-sm:text-center max-lg:text-center">
         <h2 className="text-4xl font-bold max-sm:text-3xl">
           Want to know about us ?
         </h2>

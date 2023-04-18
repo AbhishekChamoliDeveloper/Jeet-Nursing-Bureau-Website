@@ -2,9 +2,13 @@ import React from "react";
 
 const WhyUs = () => {
   return (
-    <div className="p-10 space-y-16 mt-10 max-sm:text-center max-sm:mt-5 max-sm:p-5">
+    <div className="p-10 space-y-16 mt-10 max-sm:text-center max-sm:mt-5 max-sm:p-5 max-md:text-center max-md:mt-5 max-md:p-5">
       <h2 className="text-4xl font-bold">Why to choose us ?</h2>
-      <div className="flex flex-row justify-around max-sm:flex-col max-sm:items-center max-sm:space-y-[5rem]">
+      <div
+        className="flex flex-row justify-around max-sm:flex-col max-sm:items-center max-sm:space-y-[5rem]
+      
+      max-md:flex-col max-md:items-center max-md:space-y-[5rem]"
+      >
         <div className="bg-blue-100 shadow-lg shadow-blue-200 p-3 relative rounded-md w-[20rem]">
           <svg
             xmlns="http://www.w3.org/2000/svg"

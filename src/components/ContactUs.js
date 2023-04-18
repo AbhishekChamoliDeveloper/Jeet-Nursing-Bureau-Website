@@ -60,7 +60,7 @@ const ContactUs = () => {
   return (
     <div
       id="contactus"
-      className="flex flex-col p-10 items-center justify-center space-y-3 mt-8 max-sm:p-4"
+      className="flex flex-col p-10 items-center justify-center space-y-3 mt-8 max-sm:p-4 max-md:p-3"
     >
       <h1 class="text-black text-4xl font-sans font-bold leading-[4rem]">
         Contact Us
@@ -87,18 +87,30 @@ const ContactUs = () => {
           </p>
         </div>
       ) : (
-        <div className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0 max-sm:w-full max-sm:bg-none max-sm:p-5">
+        <div
+          className="flex flex-row items-start space-x-10 border-[2px] rounded-lg justify-center bg-white shadow-md max-sm:items-center max-sm:space-x-0 max-sm:w-full max-sm:bg-none max-sm:p-5
+        
+        max-md:items-center max-md:space-x-0 max-md:w-full max-md:bg-none max-md:p-5"
+        >
           <img
             src={nurse}
             alt="nurse"
-            className="rounded-tl-lg rounded-bl-lg h-[28rem] max-sm:hidden"
+            className="rounded-tl-lg rounded-bl-lg h-[28rem] max-sm:hidden max-md:hidden"
           />
-          <form className="flex flex-col space-y-10 p-2 max-sm:shadow-3xl max-sm:w-full">
-            <div className="flex flex-row items-center justify-center space-x-8 max-sm:flex-col max-sm:space-x-0 max-sm:space-y-10 max-sm:w-full">
+          <form
+            className="flex flex-col space-y-10 p-2 max-sm:shadow-3xl max-sm:w-full
+          
+          max-md:shadow-3xl max-md:w-full"
+          >
+            <div
+              className="flex flex-row items-center justify-center space-x-8 max-sm:flex-col max-sm:space-x-0 max-sm:space-y-10 max-sm:w-full
+            max-md:flex-col max-md:space-x-0 max-md:space-y-10 max-md:w-full
+            "
+            >
               <input
                 type="text"
                 placeholder="Your Name"
-                className="border border-gray-400 p-2 rounded-lg max-sm:w-full"
+                className="border border-gray-400 p-2 rounded-lg max-sm:w-full max-md:w-full"
                 onChange={handleNameChange}
                 disabled={isSubmitting}
               />
@@ -106,7 +118,7 @@ const ContactUs = () => {
               <input
                 type="email"
                 placeholder="Your Email"
-                className="border border-gray-400 p-2 rounded-lg max-sm:w-full"
+                className="border border-gray-400 p-2 rounded-lg max-sm:w-full max-md:w-full"
                 onChange={handleEmailChange}
                 disabled={isSubmitting}
               />

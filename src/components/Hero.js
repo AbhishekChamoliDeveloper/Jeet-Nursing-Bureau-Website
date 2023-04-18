@@ -7,20 +7,25 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="min-h-screen border-t-[1px] border-t-gray-300 p-10 flex flex-row items-center justify-center space-x-10 w-full max-sm:flex-col-reverse max-sm:p-6 max-sm:min-h-0"
+      className="min-h-screen border-t-[1px] border-t-gray-300 p-10 flex flex-row items-center justify-center space-x-10 w-full max-sm:flex-col-reverse max-sm:p-6 max-sm:min-h-0 max-md:flex-col-reverse max-md:p-6 max-md:min-h-0
+      "
     >
-      <div className="flex flex-col items-start space-y-6 max-sm:text-center max-sm:items-center">
-        <h1 class="text-black text-6xl font-sans font-bold leading-[4rem] max-sm:text-3xl">
+      <div
+        className="flex flex-col items-start space-y-6 max-sm:text-center max-sm:items-center
+      max-md:text-center max-md:items-center
+      "
+      >
+        <h1 class="text-black text-6xl font-sans font-bold leading-[4rem] max-sm:text-3xl max-md:text-4xl">
           Jeet Nursing Bureau - Exceptional Caregiver Services for Your Loved
           Ones.
         </h1>
-        <p className="text-xl text-gray-500 font-roboto max-sm:text-lg">
+        <p className="text-xl text-gray-500 font-roboto max-sm:text-lg max-md:text-xl">
           Trust Jeet Nursing Bureau as Your One-Stop-Shop for Top-Quality
           Nursing and Home Care Services in Delhi NCR, Gurugram, Haryana, and
           Faridabad. From Maids to Physiotherapists, Our Expert Caregivers Keep
           Your Home and Loved Ones Happy, Healthy, and Safe.
         </p>
-        <div className="flex flex-row items-center justify-center space-x-4 max-sm:flex-col max-sm:space-x-0">
+        <div className="flex flex-row items-center justify-center space-x-4 max-sm:flex-col max-sm:space-x-0 max-md:flex-col max-md:space-x-0">
           <Link
             to="contactus"
             spy={true}
@@ -41,7 +46,7 @@ const Hero = () => {
       <img
         src={nurse}
         alt="old man with patient"
-        className="h-[25rem] rounded-xl drop-shadow-3xl max-sm:hidden"
+        className="h-[25rem] rounded-xl drop-shadow-3xl max-sm:hidden max-md:hidden"
       />
     </div>
   );
