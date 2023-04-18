@@ -12,7 +12,7 @@ const PhotoGallery = () => {
       className="flex flex-col items-center justify-center mt-24"
     >
       <h2 className="text-4xl font-bold mb-4">Photo Gallery</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10">
+      <div className="flex flex-row items-center justify-center w-full">
         <div className="border border-white rounded-lg overflow-hidden shadow-lg">
           <img
             src={image2}
