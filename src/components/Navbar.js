@@ -7,7 +7,6 @@ const Navbar = () => {
   const [visible, setVisible] = useState(true);
 
   const handleScroll = () => {
-    const navbar = document.querySelector("#navbar");
     const top = window.pageYOffset;
 
     if (top > 10) {
@@ -70,13 +69,13 @@ const Navbar = () => {
           Contact Us
         </Link>
         <Link
-          to="reviews"
+          to="gallary"
           spy={true}
           smooth={true}
           duration={1500}
           className="font-semibold text-blue-400 hover:text-blue-300 text-lg"
         >
-          Reviews
+          Gallary
         </Link>
         <Link
           to="services"

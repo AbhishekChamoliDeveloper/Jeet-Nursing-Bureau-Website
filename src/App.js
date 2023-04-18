@@ -7,7 +7,7 @@ import WhyUs from "./components/WhyUs";
 import ContactUs from "./components/ContactUs";
 import AddressMap from "./components/AddressMap";
 import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonials";
+import PhotoGallery from "./components/PhotoGallery";
 
 const App = () => {
   return (
@@ -16,8 +16,8 @@ const App = () => {
       <Hero />
       <About />
       <Services />
+      <PhotoGallery />
       <WhyUs />
-      {/* <Testimonials /> */}
       <ContactUs />
       <AddressMap />
       <Footer />

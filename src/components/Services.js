@@ -24,7 +24,7 @@ const Services = () => {
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img
           src={physio}
-          alt="physcio therapy"
+          alt="physio therapy jeet nursing service delhi"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
         <div className="space-y-5 max-sm:text-center">
@@ -86,7 +86,7 @@ const Services = () => {
 
         <img
           src={guard}
-          alt="physcio therapy"
+          alt="Guard service jeet nursing bureau delhi"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
       </div>
@@ -94,7 +94,7 @@ const Services = () => {
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img
           src={semiNurse}
-          alt="physcio therapy"
+          alt="Semi nurse service bureau delhi"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
         <div className="space-y-5 max-sm:text-center">
@@ -158,7 +158,7 @@ const Services = () => {
 
         <img
           src={nurse}
-          alt="physcio therapy"
+          alt="nurse service delhi by jeet nursing bureau"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
       </div>
@@ -166,7 +166,7 @@ const Services = () => {
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img
           src={babySitter}
-          alt="physcio therapy"
+          alt="Baby sitter service by jeet nursing bureau delhi"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
         <div className="space-y-5 max-sm:text-center">
@@ -233,7 +233,7 @@ const Services = () => {
 
         <img
           src={motherBabySitter}
-          alt="physcio therapy"
+          alt="Baby sitter service by jeet nursing bureau"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
       </div>
@@ -241,7 +241,7 @@ const Services = () => {
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img
           src={maid}
-          alt="physcio therapy"
+          alt="maid service by jeet nursing bureau"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-[20rem]"
         />
         <div className="space-y-5 max-sm:text-center">
@@ -307,7 +307,7 @@ const Services = () => {
 
         <img
           src={accupressure}
-          alt="physcio therapy"
+          alt="Accupressure service by jeet nursing bereau delhi"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-[20rem]"
         />
       </div>
@@ -315,7 +315,7 @@ const Services = () => {
       <div className="flex flex-row items-center justify-center space-x-6 bg-white rounded-lg max-sm:flex-col max-sm:space-y-2 max-sm:space-x-0 h-auto shadow-xl">
         <img
           src={bodyMassage}
-          alt="physcio therapy"
+          alt="body massage service by jeet nursing bureau"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
         <div className="space-y-5 max-sm:text-center">
@@ -385,7 +385,7 @@ const Services = () => {
 
         <img
           src={patientCare}
-          alt="physcio therapy"
+          alt="Patient Care service by jeet nursing bureau delhi"
           className="h-[15rem] rounded-tl-lg rounded-bl-lg max-sm:rounded-lg max-sm:h-full"
         />
       </div>

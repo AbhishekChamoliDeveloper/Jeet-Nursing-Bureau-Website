@@ -77,7 +77,7 @@ function MobileMenu() {
               Contact Us
             </Link>
             <Link
-              to="reviews"
+              to="gallary"
               spy={true}
               smooth={true}
               duration={2500}
@@ -85,7 +85,7 @@ function MobileMenu() {
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
               role="menuitem"
             >
-              Reviews
+              Gallary
             </Link>
 
             <div className="w-full">
