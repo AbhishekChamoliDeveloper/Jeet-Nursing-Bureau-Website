@@ -15,7 +15,7 @@ const PhotoGallery = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10">
         <div className="border border-white rounded-lg overflow-hidden shadow-lg">
           <img
-            src={image1}
+            src={image2}
             alt="Jeet Nursing Bureau provides expert home healthcare and patient care services in the Delhi-NCR area, including Delhi, Gurugram, and Faridabad."
           />
         </div>
